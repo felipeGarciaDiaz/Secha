@@ -1,8 +1,0 @@
-PLATFORM: WEB
-STACK: HTML, CSS, JAVASCRIPT, NODEJS, MONGODB
-CONCEPT:
-	Blocked Numbers may utilize this program too achieve a second chance on any victims number
-	Some things avaiblabe to the attacker are:
-		*SPAM CALL
-		*CUSTOM MESSAGE
-		*DDOS CALL
