@@ -1,0 +1,46 @@
+<html>
+    <title>Secha</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet"> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Media/style.css">
+    <body>
+        <div class="col-sm-12" id="header">
+            <h1 class="text-center"><b>Secha</b> - get your message across just right.</h1>
+        </div>
+        <div class="col-sm-12" id="space"></div>
+        <div class="col-sm-4"></div>
+        <form method="POST" action="/sendText">
+            <div class="col-sm-4" id="main">
+                <div class="col-sm-12" id="mal-bot-send">
+                    <br />
+                    <textarea id="email-input" class="form-control" placeholder="Put text message here" name="comm"></textarea>
+                    <br />
+                </div>
+                <div class="col-sm-12">
+                    <input class="form-control" type="text" placeholder="Email Address" id="email-num" name="email"/>
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <input class="form-control" type="text" placeholder="Amount of messages" id="email-amt" name="int"/>
+                </div>
+                <div class="col-sm-6">
+                    <input class="form-control" type="text" placeholder="Email Spoof to use" id="uniq-email" name="uniq"/>
+                </div>
+                <div class="col-sm-12">
+                    <br />
+                    <input type="submit" class="btn center-block" id="submitter" value="Send Message"/>
+                </div>
+                <div class="col-sm-12" id="space-main"></div>
+            </div>
+        </form>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-12">
+            <img src="Media/sechaLogo.png" width="300" height="300" class="center-block"/>
+        </div>
+        <div class="col-sm-12" id="footer">
+            <h1 class="text-center"><a href="mainSite">Developed by Pylot</a></h1>
+        </div>
+    </body>
+    <script src="Media/script.js"></script>
+</html>

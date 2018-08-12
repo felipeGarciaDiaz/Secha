@@ -1,0 +1,40 @@
+body{
+    background-color: #fff4e6;
+}
+#header{
+    background-color: #854442;
+    color: #ffffff;
+    font-family: 'Do Hyeon', sans-serif;
+    position: fixed;
+    top: 0%;
+}
+#space{
+    height: 20%;
+}
+#main{
+    background-color: #3c2f2f;
+    color: #fff;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+#email-input{
+    resize: none;
+    width: 100%;
+    height: 20%;
+}
+#submitter{
+    background-color: #be9b7b;
+    color: #ffffff;
+    height: 5%;
+    width: 50%;
+}
+#space-main{
+    height: 3%;
+}
+#footer{
+    background-color: #3c2f2f;
+    color: #ffffff;
+    font-family: 'Do Hyeon', sans-serif;
+}
+a:hover, a:link, a:active, a:visited, a{
+    color: #ffffff;
+}
