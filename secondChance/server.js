@@ -1,6 +1,13 @@
-/* Developed by Felipe Garcia Diaz
-Free for anyone to use and change, no credit needed
-Developed as part of the pylot security company
+/* Developed by Felipe Garcia Diaz::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Free for anyone to use and change, no credit needed:::::::::::::::::::::::::::::::::::::::::::::::::::
+Developed as part of the pylot security company:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
 var express = require("express");
@@ -52,3 +59,7 @@ port = 8283;
 app.listen(port, () => {
     console.log("Unlocked, server has been activated\nport: " + port);
 });
+/*
+Pylot Security, is a security research company. We research and secure computer devices and security concepts.
+This project is part of Pylots research and development advancement team.
+*/
