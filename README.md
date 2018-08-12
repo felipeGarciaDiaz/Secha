@@ -1,5 +1,5 @@
 # Secha
-Get your message across just right.
+NodeJS tool to send messages. Get your message across just right.
 ## What this isaccess 
 Secha is an email sender, that allows you to spoof, spam, and create emails and send to anyone you desire. Created via NodeJS using SMTP protocols, and added logging for security.
 ## Why I Made This
